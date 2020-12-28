@@ -1,4 +1,4 @@
-package MyPack1;
+package Lab08_01;
 
 public class Fac1 {
     public static int f(int n){

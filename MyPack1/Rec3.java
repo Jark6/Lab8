@@ -1,4 +1,4 @@
-package MyPack1;
+package Lab08_01;
 
 public class Rec3 {
     private static int step = 0;

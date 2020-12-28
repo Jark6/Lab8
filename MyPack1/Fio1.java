@@ -1,4 +1,4 @@
-package MyPack1;
+package Lab08_01;
 
 public class Fio1 {
     private static int step = 0;

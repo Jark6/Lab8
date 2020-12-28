@@ -1,4 +1,4 @@
-package MyPack1;
+package Lab08_01;
 
 public class Rec1 {
     public static void m(int x) {
