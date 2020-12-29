@@ -13,9 +13,7 @@ public class Main {
         System.out.println("Введите размер массива");
         int Size = id.nextInt();
         System.out.println("Размер массива равен "+ Size); // Сообщение пользователю "для красоты и понимания"
-        //int[] nums = new int[Size]; // Создание массива с размером введённым из консоли
 
         RecArray RA1 = new RecArray(Size);
         }
     }
-
