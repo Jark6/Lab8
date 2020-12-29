@@ -16,8 +16,6 @@ public class Main {
         //int[] nums = new int[Size]; // Создание массива с размером введённым из консоли
 
         RecArray RA1 = new RecArray(Size);
-        RA1.SetRecArray(Size);
-        RA1.GetRecArray();
         }
     }
 
