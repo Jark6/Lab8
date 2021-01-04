@@ -6,6 +6,8 @@
 
 package Lab08_05;
 
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
         Node.createHead(7);

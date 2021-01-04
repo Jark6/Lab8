@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class RecArray {
 
-    Random random = new Random(); // Создание объекта класса Random для генерации "случайного" числа
+    Random random = new Random();
     private static int Size;
     private static int[]nums;
 
@@ -22,7 +22,7 @@ public class RecArray {
         if (x != 0) {
             SetRecArray(x - 1);
             nums[i] = random.nextInt(200);
-            System.out.println("Заведен элемент массива [" + i + "] = " + nums[i]); // Сообщение пользователю "для красоты и понимания"
+            System.out.println("Заведен элемент массива [" + i + "] = " + nums[i]);
             if (i == nums.length-1){System.out.println("конец ввода\n");}
         }
     }
@@ -30,7 +30,7 @@ public class RecArray {
         int j = x-1;
         if (x != 0) {
             GetRecArray(x-1);
-            System.out.println("Выведен элемент массива [" + j + "] = " + nums[j]); // Сообщение пользователю "для красоты и понимания"
+            System.out.println("Выведен элемент массива [" + j + "] = " + nums[j]);
             if (j == nums.length-1){System.out.println("конец массива\n");}
         }
     }
